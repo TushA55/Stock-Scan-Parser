@@ -1,16 +1,38 @@
-# stock_scan_parser
+# Stock Scan Parser
 
-A new Flutter project.
+Fitpage case study for parsing stock scans.
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+## Project Structure
 
-A few resources to get you started if this is your first Flutter project:
+This project follows the Clean Architecture principles and is separated in the following modules:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+lib/
+  config/
+    routes/
+    theme/
+  core/
+    constants/
+    resources/
+    usecases/
+    util/
+  features/
+    dashboard/
+      data/
+        data_sources/
+        models/
+        repository/
+      domain/
+        entities/
+        repository/
+        usecases/
+      presentation/
+        bloc/
+        pages/
+        widgets/
+injection_container.dart
+main.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

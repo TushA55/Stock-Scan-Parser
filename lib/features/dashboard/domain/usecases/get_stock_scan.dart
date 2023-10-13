@@ -1,6 +1,6 @@
 // Project imports:
 import 'package:stock_scan_parser/core/resources/data_state.dart';
-import 'package:stock_scan_parser/core/usercase/usecase.dart';
+import 'package:stock_scan_parser/core/usecase/usecase.dart';
 import 'package:stock_scan_parser/features/dashboard/domain/entities/stock_scan.dart';
 import 'package:stock_scan_parser/features/dashboard/domain/repository/stock_scan_repository.dart';
 
