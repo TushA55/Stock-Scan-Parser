@@ -1,0 +1,23 @@
+{
+    "id": 0,
+    "name": "",
+    "tag": "",
+    "color": "",
+    "criteria": [
+        {
+            "type": "",
+            "text": "",
+            "variable": {
+                "": {
+                    "type": "",
+                    "values": [],
+                    "study_type": "",
+                    "parameter_name": "",
+                    "min_value": 0,
+                    "max_value": 0,
+                    "default_value": 0
+                }
+            }
+        }
+    ]
+}
