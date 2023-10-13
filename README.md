@@ -4,6 +4,8 @@ Fitpage case study for parsing stock scans.
 
 ## Demo
 
+https://github.com/TushA55/Stock-Scan-Parser/assets/49338787/10f0be6f-cca6-4cc4-ae02-22c26795f5e1
+
 ## Project Structure
 
 This project follows the Clean Architecture principles and is separated in the following modules:
